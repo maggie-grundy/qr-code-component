@@ -6,11 +6,11 @@
 
 body {
   font-family: sans-serif;
-  background-color: hsl(212, 45%, 89%);
+  background-color:  hsl(212, 45%, 89%);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100dvh;
   margin: 0;
 }
 
@@ -27,16 +27,27 @@ body {
     place-items: center;
     height: 100vh;
     width: 100vw;
-    max-height: 667px;
-    max-width: 375px;
+    max-height: 499px;
+    max-width: 320px;
     background-color: white;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 20px;
+    padding: 16px 16px 40px;
     margin: 40px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-
-
+}
+.container h1 {
+  font-size: 22px;
+  font-family: 'Outfit', sans-serif;
+  color: hsl(218, 44%, 22%)
+  padding: 0px;
+  margin: 30px 0px 0px 0px;
+}
+  .container > p {
+  font-size: 15px;
+  color: hsl(216, 15%, 48%);
+  margin: 10px 15px 10px 10px;
+  line-height: 1.5;
 }
 
 .container__image {
